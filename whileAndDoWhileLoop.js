@@ -14,3 +14,11 @@ while(i < names.length) {
 console.log(names[i]);
 i++;
 }
+
+
+// do while loops
+let i = 4;
+&{
+console.log('val of i is: i);
+i++;
+} while(i < 5);
