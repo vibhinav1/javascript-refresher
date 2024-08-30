@@ -7,3 +7,4 @@ console. log('that password is long enough! ');
 } else {
 console. log('password is not long enough');
 }
+
