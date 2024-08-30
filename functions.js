@@ -4,3 +4,13 @@ function greet(){
 }
 // function expression
 greet();
+
+
+// function expression
+const speak = function() {
+  console.log('good day!');
+};
+
+speak();
+speak();
+speak();
