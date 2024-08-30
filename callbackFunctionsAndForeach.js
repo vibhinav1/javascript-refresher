@@ -11,3 +11,11 @@ let people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
 people.forEach(function(person) {
   console.log('something');
 });
+
+///
+// callbacks & foreach (same as above just )
+let people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
+const logPerson = (person, index) => {
+  console.log(${index} - hello ${person}`);
+};
+people.forEach (logPerson);
