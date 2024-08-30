@@ -14,3 +14,9 @@ const speak = function() {
 speak();
 speak();
 speak();
+
+///// arguments & parameters
+const speak = function(name) {
+  console.log(good day ${name}`);
+};
+speak('mario');
